@@ -1,4 +1,5 @@
 .menu-bar {
+    position: fixed;
     height: 100vh;
     overflow: hidden;
     /*border: 1.5px solid red;*/
@@ -7,7 +8,7 @@
 }
 
 .name-plate {
-    margin-bottom: 30px;
+    margin: 0 10px 30px 10px;
 }
 
 .menu-button {
@@ -40,6 +41,7 @@ hr {
 
 @media(max-width:991px){
     .menu-bar {
+        position: static;
         height: 200px;
     }
     .name-plate h1 {
